@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB6C63EA22B25DAF004366D6 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C63E922B25DAF004366D6 /* CityList.swift */; };
+		CB6C63EC22B25ED6004366D6 /* CityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C63EB22B25ED6004366D6 /* CityDetails.swift */; };
+		CB6C63EE22B279AD004366D6 /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = CB6C63ED22B279AD004366D6 /* Cities.json */; };
 		CB8550CC22B2492500380BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8550CB22B2492500380BF6 /* AppDelegate.swift */; };
 		CB8550CE22B2492500380BF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8550CD22B2492500380BF6 /* SceneDelegate.swift */; };
-		CB8550D022B2492500380BF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8550CF22B2492500380BF6 /* ContentView.swift */; };
 		CB8550D222B2492700380BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8550D122B2492700380BF6 /* Assets.xcassets */; };
 		CB8550D522B2492700380BF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8550D422B2492700380BF6 /* Preview Assets.xcassets */; };
 		CB8550D822B2492700380BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8550D622B2492700380BF6 /* LaunchScreen.storyboard */; };
+		CB8550E022B2496000380BF6 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8550DF22B2496000380BF6 /* City.swift */; };
+		CB8550E322B2498700380BF6 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8550E222B2498700380BF6 /* Temperature.swift */; };
+		CB8550E522B249FB00380BF6 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8550E422B249FB00380BF6 /* Condition.swift */; };
+		CB8550E722B24CF300380BF6 /* CityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8550E622B24CF300380BF6 /* CityRow.swift */; };
+		CB8550EA22B24FE000380BF6 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8550E922B24FE000380BF6 /* Cities.swift */; };
+		CBFA799822B2A921009823FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFA799722B2A921009823FB /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB6C63E922B25DAF004366D6 /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
+		CB6C63EB22B25ED6004366D6 /* CityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetails.swift; sourceTree = "<group>"; };
+		CB6C63ED22B279AD004366D6 /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
 		CB8550C822B2492500380BF6 /* AkvelonWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkvelonWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8550CB22B2492500380BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB8550CD22B2492500380BF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB8550CF22B2492500380BF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB8550D122B2492700380BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8550D422B2492700380BF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB8550D722B2492700380BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB8550D922B2492700380BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8550DF22B2496000380BF6 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		CB8550E222B2498700380BF6 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		CB8550E422B249FB00380BF6 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		CB8550E622B24CF300380BF6 /* CityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRow.swift; sourceTree = "<group>"; };
+		CB8550E922B24FE000380BF6 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		CBFA799722B2A921009823FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +72,17 @@
 		CB8550CA22B2492500380BF6 /* AkvelonWeather */ = {
 			isa = PBXGroup;
 			children = (
+				CBFA799722B2A921009823FB /* Images.xcassets */,
 				CB8550CB22B2492500380BF6 /* AppDelegate.swift */,
 				CB8550CD22B2492500380BF6 /* SceneDelegate.swift */,
-				CB8550CF22B2492500380BF6 /* ContentView.swift */,
+				CB6C63E922B25DAF004366D6 /* CityList.swift */,
+				CB6C63EB22B25ED6004366D6 /* CityDetails.swift */,
 				CB8550D122B2492700380BF6 /* Assets.xcassets */,
 				CB8550D622B2492700380BF6 /* LaunchScreen.storyboard */,
 				CB8550D922B2492700380BF6 /* Info.plist */,
 				CB8550D322B2492700380BF6 /* Preview Content */,
+				CB8550E122B2496400380BF6 /* Models */,
+				CB8550E822B24CF700380BF6 /* Rows */,
 			);
 			path = AkvelonWeather;
 			sourceTree = "<group>";
@@ -73,6 +93,26 @@
 				CB8550D422B2492700380BF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB8550E122B2496400380BF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C63ED22B279AD004366D6 /* Cities.json */,
+				CB8550DF22B2496000380BF6 /* City.swift */,
+				CB8550E222B2498700380BF6 /* Temperature.swift */,
+				CB8550E422B249FB00380BF6 /* Condition.swift */,
+				CB8550E922B24FE000380BF6 /* Cities.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB8550E822B24CF700380BF6 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				CB8550E622B24CF300380BF6 /* CityRow.swift */,
+			);
+			path = Rows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +173,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6C63EE22B279AD004366D6 /* Cities.json in Resources */,
+				CBFA799822B2A921009823FB /* Images.xcassets in Resources */,
 				CB8550D822B2492700380BF6 /* LaunchScreen.storyboard in Resources */,
 				CB8550D522B2492700380BF6 /* Preview Assets.xcassets in Resources */,
 				CB8550D222B2492700380BF6 /* Assets.xcassets in Resources */,
@@ -146,9 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8550EA22B24FE000380BF6 /* Cities.swift in Sources */,
 				CB8550CC22B2492500380BF6 /* AppDelegate.swift in Sources */,
+				CB8550E522B249FB00380BF6 /* Condition.swift in Sources */,
+				CB6C63EC22B25ED6004366D6 /* CityDetails.swift in Sources */,
+				CB8550E722B24CF300380BF6 /* CityRow.swift in Sources */,
+				CB6C63EA22B25DAF004366D6 /* CityList.swift in Sources */,
 				CB8550CE22B2492500380BF6 /* SceneDelegate.swift in Sources */,
-				CB8550D022B2492500380BF6 /* ContentView.swift in Sources */,
+				CB8550E022B2496000380BF6 /* City.swift in Sources */,
+				CB8550E322B2498700380BF6 /* Temperature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +334,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "AkvelonWeather/Preview\\ Content";
-				DEVELOPMENT_TEAM = 285W24646W;
+				DEVELOPMENT_TEAM = Q8M342TXD6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AkvelonWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dev.AkvelonWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dev.AkvelonWeathera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,14 +354,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "AkvelonWeather/Preview\\ Content";
-				DEVELOPMENT_TEAM = 285W24646W;
+				DEVELOPMENT_TEAM = Q8M342TXD6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AkvelonWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dev.AkvelonWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dev.AkvelonWeathera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
