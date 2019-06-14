@@ -10,9 +10,11 @@ import SwiftUI
 
 struct CityList : View {
     
+    let cities = Cities.availableCities!
+    
     var body: some View {
         NavigationView {
-            List(Cities.availableCities!.identified(by: \.id)) { city in
+            List(cities.identified(by: \.id)) { city in
                 NavigationButton(destination: CityDetails(city: city)) {
                     CityRow(city: city)
                 }
@@ -24,7 +26,7 @@ struct CityList : View {
 #if DEBUG
 struct CityList_Previews : PreviewProvider {
     static var previews: some View {
-        CityList().colorScheme(.light)
+        CityList().colorScheme(.dark)
     }
 }
 #endif

@@ -17,8 +17,8 @@ struct CityRow : View {
                 .font(.title).foregroundColor(.yellow).frame(width: 50, height: 50, alignment: .center)
             
             VStack(alignment: .leading) {
-                Text(city.name).font(.headline).color(.primary)
-                Text(city.country).font(.body).color(.secondary)
+                Text(city.name)//.font(.headline).color(.primary)
+                Text(city.country)//.font(.body).color(.secondary)
             }.padding(.leading, 5)
             Spacer()
             Text(city.currentCondition.temperature.displayValue)

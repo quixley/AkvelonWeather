@@ -18,26 +18,26 @@ struct CityDetails : View {
             fatalError("Image not found")
         }
         
-        return VStack(alignment: .center) {
-            Image(uiImage: image).resizable().aspectRatio(contentMode: .fill)
-            ScrollView(showsHorizontalIndicator: false) {
-                HStack(alignment: .top, spacing: 10) {
-                    ForEach(city.conditions.identified(by: \.id)) { condition in
-                        VStack(alignment:.center) {
-                            Image(systemName:condition.type.systemImage)
-                                .font(.largeTitle)
-                                .padding(.bottom, 5)
-                                .frame(width:40, height:40, alignment: .center)
-                            Text(condition.temperature.displayValue).font(.headline)
-                        }
-                        .padding(.leading, 20)
-                        .padding(.trailing, 20)
-                    }
+        return
+            GeometryReader { geometry in
+                ScrollView(alwaysBounceVertical: true) {
+                    VStack(alignment: .center) {
+                        Image(uiImage: image).resizable().aspectRatio(contentMode: .fill).frame(height:200).clipped()
+                        ScrollView(showsHorizontalIndicator: false) {
+                            HStack(alignment: .top, spacing: 10) {
+                                ForEach(self.city.conditions) { condition in
+                                    ConditionColomn(condition:condition)
+                                }
+                            }
+                            }.frame(height:70)
+                        Text("Powered by Akvelon")
+                            .font(.footnote)
+                            .color(.gray)
+                            .padding(.top, 10)
+                    }.frame(width: geometry.size.width)
                 }
-            }.frame(height:70)
-            Text("Powered by Akvelon").font(.footnote).color(.gray).padding(.top, 10)
-            Spacer()
-        }.padding(.top,20).navigationBarTitle(Text(city.name), displayMode: .inline)
+            }.navigationBarTitle(Text(city.name), displayMode: .inline)
+        
     }
 }
 

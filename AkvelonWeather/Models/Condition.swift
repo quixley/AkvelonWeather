@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 enum ConditionType:Int, CaseIterable, Codable {
     case clear = 0
@@ -32,7 +33,7 @@ enum ConditionType:Int, CaseIterable, Codable {
     }
 }
 
-struct Condition:Codable {
+struct Condition:Codable, Identifiable {
     var id:Int
     var temperature:Temperature
     var type:ConditionType
