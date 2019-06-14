@@ -12,15 +12,16 @@ struct CityRow : View {
     var city: City
     var body: some View {
         HStack {
-            Image(systemName: city.currentCondition!.type.systemImage)
+            Image(systemName: city.currentCondition.type.systemImage)
                 .padding(.leading, 16)
                 .font(.title).foregroundColor(.yellow).frame(width: 50, height: 50, alignment: .center)
+            
             VStack(alignment: .leading) {
                 Text(city.name).font(.headline).color(.primary)
-                Text(city.country).font(.footnote).color(.secondary)
+                Text(city.country).font(.body).color(.secondary)
             }.padding(.leading, 5)
             Spacer()
-            Text(city.currentCondition!.temperature.displayValue)
+            Text(city.currentCondition.temperature.displayValue)
                 .padding(.trailing, 16).font(.largeTitle)
         }
     }

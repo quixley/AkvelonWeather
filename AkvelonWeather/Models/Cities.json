@@ -4,6 +4,7 @@
         "id":0,
         "name": "Moscow",
         "country": "Russian Federation",
+        "image":"Moscow",
         "conditions": [
             {
                 "id":0,
@@ -51,6 +52,7 @@
         "id":1,
         "name": "Kazan",
         "country": "Russian Federation",
+        "image":"Kazan",
         "conditions": [
             {
                 "id":0,
@@ -98,6 +100,7 @@
         "id":2,
         "name": "London",
         "country": "United Kingdom",
+        "image":"London",
         "conditions": [
             {
                 "id":0,
@@ -145,6 +148,7 @@
         "id":3,
         "name": "Helsinki",
         "country": "Finland",
+        "image":"Helsinki",
         "conditions": [
             {
                 "id":0,
@@ -192,6 +196,7 @@
         "id":4,
         "name": "New York",
         "country": "USA",
+        "image":"NY",
         "conditions": [
             {
                 "id":0,
@@ -239,6 +244,7 @@
         "id":5,
         "name": "San Francisco",
         "country": "USA",
+        "image":"SF",
         "conditions": [
             {
                 "id":0,
@@ -286,6 +292,7 @@
         "id":6,
         "name": "Ushuaia",
         "country": "Argentina",
+        "image":"Ushuaia",
         "conditions": [
             {
                 "id":0,

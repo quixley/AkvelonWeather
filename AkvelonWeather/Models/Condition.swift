@@ -26,7 +26,7 @@ enum ConditionType:Int, CaseIterable, Codable {
         case .storm:
             return "cloud.sun.bolt"
         case .snow:
-            return "snow"
+            return "cloud.snow"
         }
         
     }

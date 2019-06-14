@@ -13,8 +13,9 @@ struct City:Identifiable, Codable {
     var id:Int
     var name:String
     var country:String
+    var image:String
     
-    var conditions:[Condition]?
-    var currentCondition:Condition?
+    var conditions:[Condition]
+    var currentCondition:Condition
     
 }

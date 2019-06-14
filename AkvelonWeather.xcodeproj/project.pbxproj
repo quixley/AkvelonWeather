@@ -24,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB4C14FE22B3057A007B795A /* AkvelonWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AkvelonWeather.entitlements; sourceTree = "<group>"; };
+		CB4C150022B307B1007B795A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		CB6C63E922B25DAF004366D6 /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
 		CB6C63EB22B25ED6004366D6 /* CityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetails.swift; sourceTree = "<group>"; };
 		CB6C63ED22B279AD004366D6 /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
@@ -53,11 +55,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB4C14FF22B307B1007B795A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C150022B307B1007B795A /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB8550BF22B2492500380BF6 = {
 			isa = PBXGroup;
 			children = (
 				CB8550CA22B2492500380BF6 /* AkvelonWeather */,
 				CB8550C922B2492500380BF6 /* Products */,
+				CB4C14FF22B307B1007B795A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +83,7 @@
 		CB8550CA22B2492500380BF6 /* AkvelonWeather */ = {
 			isa = PBXGroup;
 			children = (
+				CB4C14FE22B3057A007B795A /* AkvelonWeather.entitlements */,
 				CBFA799722B2A921009823FB /* Images.xcassets */,
 				CB8550CB22B2492500380BF6 /* AppDelegate.swift */,
 				CB8550CD22B2492500380BF6 /* SceneDelegate.swift */,
@@ -332,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AkvelonWeather/AkvelonWeather.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "AkvelonWeather/Preview\\ Content";
 				DEVELOPMENT_TEAM = Q8M342TXD6;
@@ -343,6 +356,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dev.AkvelonWeathera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -352,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AkvelonWeather/AkvelonWeather.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "AkvelonWeather/Preview\\ Content";
 				DEVELOPMENT_TEAM = Q8M342TXD6;
@@ -363,6 +378,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dev.AkvelonWeathera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

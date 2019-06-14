@@ -13,11 +13,16 @@ struct CityDetails : View {
     var city:City
     
     var body: some View {
-        VStack(alignment: .center) {
-            Image("card_back").resizable().aspectRatio(contentMode: .fill)
+        
+        guard let image = UIImage(named: city.image) else {
+            fatalError("Image not found")
+        }
+        
+        return VStack(alignment: .center) {
+            Image(uiImage: image).resizable().aspectRatio(contentMode: .fill)
             ScrollView(showsHorizontalIndicator: false) {
                 HStack(alignment: .top, spacing: 10) {
-                    ForEach(city.conditions!.identified(by: \.id)) { condition in
+                    ForEach(city.conditions.identified(by: \.id)) { condition in
                         VStack(alignment:.center) {
                             Image(systemName:condition.type.systemImage)
                                 .font(.largeTitle)
@@ -30,7 +35,7 @@ struct CityDetails : View {
                     }
                 }
             }.frame(height:70)
-            Text("Powered by Akvelon").font(.footnote).color(.secondary).padding(.top, 10)
+            Text("Powered by Akvelon").font(.footnote).color(.gray).padding(.top, 10)
             Spacer()
         }.padding(.top,20).navigationBarTitle(Text(city.name), displayMode: .inline)
     }
