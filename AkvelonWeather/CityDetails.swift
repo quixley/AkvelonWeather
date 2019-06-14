@@ -20,21 +20,32 @@ struct CityDetails : View {
         
         return
             GeometryReader { geometry in
-                ScrollView(alwaysBounceVertical: true) {
-                    VStack(alignment: .center) {
-                        Image(uiImage: image).resizable().aspectRatio(contentMode: .fill).frame(height:200).clipped()
-                        ScrollView(showsHorizontalIndicator: false) {
-                            HStack(alignment: .top, spacing: 10) {
-                                ForEach(self.city.conditions) { condition in
-                                    ConditionColomn(condition:condition)
-                                }
-                            }
-                            }.frame(height:70)
-                        Text("Powered by Akvelon")
-                            .font(.footnote)
-                            .color(.gray)
-                            .padding(.top, 10)
-                    }.frame(width: geometry.size.width)
+                VStack (alignment: .leading) {
+                    ScrollView(alwaysBounceVertical: false) {
+                        VStack(alignment: .center) {
+                            Image(uiImage: image)
+                                .resizable()
+                                .aspectRatio(image.size.width/image.size.height, contentMode: .fill)
+                                .frame(height:geometry.size.width*0.75)
+                                .relativeWidth(1)
+                                .clipped()
+                            ScrollView(alwaysBounceHorizontal:true, showsHorizontalIndicator: false) {
+                                HStack(alignment: .top, spacing: 10) {
+                                    ForEach(self.city.conditions) { condition in
+                                        ConditionColomn(condition:condition)
+                                    }
+                                }.padding(.top, 10)
+                            }.frame(height:80)
+                            Divider().padding(.bottom, 20)
+                            GraphView(items: self.city.conditions.map {$0.temperature.value})
+                                .padding(.horizontal, 0)
+                                .frame(width:geometry.size.width, height:200)
+                        }.frame(width: geometry.size.width)
+                    }
+                    Text("Powered by Akvelon")
+                        .font(.footnote)
+                        .color(.gray)
+                        .padding(.top, 10)
                 }
             }.navigationBarTitle(Text(city.name), displayMode: .inline)
         

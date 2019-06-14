@@ -13,10 +13,11 @@ struct ConditionColomn : View {
     var body: some View {
         VStack(alignment:.center) {
             Image(systemName:condition.type.systemImage)
-                .font(.largeTitle)
+                .font(.title)
                 .padding(.bottom, 5)
                 .frame(width:40, height:40, alignment: .center)
-            Text(condition.temperature.displayValue).font(.headline)
+            Text(condition.temperature.displayValue)
+                .font(.headline)
         }.padding(.horizontal, 20)
         
     }

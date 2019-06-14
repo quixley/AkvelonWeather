@@ -40,12 +40,47 @@
                 "id":6,
                 "type":0,
                 "temperature":{"value":23}
+            },
+            {
+                "id":7,
+                "type":0,
+                "temperature":{"value":13}
+            },
+            {
+                "id":8,
+                "type":1,
+                "temperature":{"value":16}
+            },
+            {
+                "id":9,
+                "type":2,
+                "temperature":{"value":17}
+            },
+            {
+                "id":10,
+                "type":0,
+                "temperature":{"value":20}
+            },
+            {
+                "id":11,
+                "type":0,
+                "temperature":{"value":25}
+            },
+            {
+                "id":12,
+                "type":0,
+                "temperature":{"value":27}
+            },
+            {
+                "id":13,
+                "type":0,
+                "temperature":{"value":31}
             }
         ],
         "currentCondition":{
             "id":6,
             "type":0,
-            "temperature":{"value":23}
+            "temperature":{"value":31}
         }
     },
     {
@@ -88,6 +123,41 @@
                 "id":6,
                 "type":0,
                 "temperature":{"value":16}
+            },
+            {
+                "id":7,
+                "type":0,
+                "temperature":{"value":13}
+            },
+            {
+                "id":8,
+                "type":1,
+                "temperature":{"value":16}
+            },
+            {
+                "id":9,
+                "type":1,
+                "temperature":{"value":14}
+            },
+            {
+                "id":10,
+                "type":0,
+                "temperature":{"value":20}
+            },
+            {
+                "id":11,
+                "type":0,
+                "temperature":{"value":10}
+            },
+            {
+                "id":12,
+                "type":1,
+                "temperature":{"value":21}
+            },
+            {
+                "id":13,
+                "type":0,
+                "temperature":{"value":23}
             }
         ],
         "currentCondition":{
@@ -136,6 +206,41 @@
                 "id":6,
                 "type":2,
                 "temperature":{"value":10}
+            },
+            {
+                "id":7,
+                "type":0,
+                "temperature":{"value":13}
+            },
+            {
+                "id":8,
+                "type":1,
+                "temperature":{"value":16}
+            },
+            {
+                "id":9,
+                "type":1,
+                "temperature":{"value":14}
+            },
+            {
+                "id":10,
+                "type":0,
+                "temperature":{"value":20}
+            },
+            {
+                "id":11,
+                "type":0,
+                "temperature":{"value":10}
+            },
+            {
+                "id":12,
+                "type":1,
+                "temperature":{"value":21}
+            },
+            {
+                "id":13,
+                "type":0,
+                "temperature":{"value":23}
             }
         ],
         "currentCondition":{
@@ -184,6 +289,41 @@
                 "id":6,
                 "type":1,
                 "temperature":{"value":21}
+            },
+            {
+                "id":7,
+                "type":0,
+                "temperature":{"value":13}
+            },
+            {
+                "id":8,
+                "type":1,
+                "temperature":{"value":16}
+            },
+            {
+                "id":9,
+                "type":1,
+                "temperature":{"value":14}
+            },
+            {
+                "id":10,
+                "type":0,
+                "temperature":{"value":20}
+            },
+            {
+                "id":11,
+                "type":0,
+                "temperature":{"value":10}
+            },
+            {
+                "id":12,
+                "type":1,
+                "temperature":{"value":21}
+            },
+            {
+                "id":13,
+                "type":0,
+                "temperature":{"value":23}
             }
         ],
         "currentCondition":{
@@ -232,6 +372,41 @@
                 "id":6,
                 "type":2,
                 "temperature":{"value":26}
+            },
+            {
+                "id":7,
+                "type":0,
+                "temperature":{"value":13}
+            },
+            {
+                "id":8,
+                "type":1,
+                "temperature":{"value":16}
+            },
+            {
+                "id":9,
+                "type":1,
+                "temperature":{"value":14}
+            },
+            {
+                "id":10,
+                "type":0,
+                "temperature":{"value":20}
+            },
+            {
+                "id":11,
+                "type":0,
+                "temperature":{"value":10}
+            },
+            {
+                "id":12,
+                "type":1,
+                "temperature":{"value":21}
+            },
+            {
+                "id":13,
+                "type":0,
+                "temperature":{"value":23}
             }
         ],
         "currentCondition":{
@@ -280,6 +455,41 @@
                 "id":6,
                 "type":1,
                 "temperature":{"value":25}
+            },
+            {
+                "id":7,
+                "type":0,
+                "temperature":{"value":13}
+            },
+            {
+                "id":8,
+                "type":1,
+                "temperature":{"value":16}
+            },
+            {
+                "id":9,
+                "type":1,
+                "temperature":{"value":14}
+            },
+            {
+                "id":10,
+                "type":0,
+                "temperature":{"value":20}
+            },
+            {
+                "id":11,
+                "type":0,
+                "temperature":{"value":10}
+            },
+            {
+                "id":12,
+                "type":1,
+                "temperature":{"value":21}
+            },
+            {
+                "id":13,
+                "type":0,
+                "temperature":{"value":23}
             }
         ],
         "currentCondition":{
@@ -328,6 +538,41 @@
                 "id":6,
                 "type":4,
                 "temperature":{"value":-1}
+            },
+            {
+                "id":7,
+                "type":0,
+                "temperature":{"value":13}
+            },
+            {
+                "id":8,
+                "type":1,
+                "temperature":{"value":16}
+            },
+            {
+                "id":9,
+                "type":1,
+                "temperature":{"value":14}
+            },
+            {
+                "id":10,
+                "type":0,
+                "temperature":{"value":20}
+            },
+            {
+                "id":11,
+                "type":0,
+                "temperature":{"value":10}
+            },
+            {
+                "id":12,
+                "type":1,
+                "temperature":{"value":21}
+            },
+            {
+                "id":13,
+                "type":0,
+                "temperature":{"value":23}
             }
         ],
         "currentCondition":{
