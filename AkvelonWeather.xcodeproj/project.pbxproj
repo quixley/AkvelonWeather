@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84AB123E22B396E500063B97 /* AkvelonWeatherMac.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 84AB123422B3966900063B97 /* AkvelonWeatherMac.bundle */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		84AB124322B39E9D00063B97 /* ConditionColomn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB124222B39E9D00063B97 /* ConditionColomn.swift */; };
 		CB6C63EA22B25DAF004366D6 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C63E922B25DAF004366D6 /* CityList.swift */; };
 		CB6C63EC22B25ED6004366D6 /* CityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C63EB22B25ED6004366D6 /* CityDetails.swift */; };
@@ -26,13 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84AB123B22B3968800063B97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB8550C022B2492500380BF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84AB123322B3966900063B97;
-			remoteInfo = AkvelonWeatherMac;
-		};
 		84AB123F22B396E500063B97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CB8550C022B2492500380BF6 /* Project object */;
@@ -49,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				84AB123E22B396E500063B97 /* AkvelonWeatherMac.bundle in Embed PlugIns */,
 			);
 			name = "Embed PlugIns";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +48,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		84AB123422B3966900063B97 /* AkvelonWeatherMac.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkvelonWeatherMac.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AB123622B3966900063B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AB124222B39E9D00063B97 /* ConditionColomn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConditionColomn.swift; path = AkvelonWeather/Models/ConditionColomn.swift; sourceTree = SOURCE_ROOT; };
 		CB4C14FE22B3057A007B795A /* AkvelonWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AkvelonWeather.entitlements; sourceTree = "<group>"; };
@@ -81,13 +71,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84AB123122B3966900063B97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CB8550C522B2492500380BF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				CB8550C822B2492500380BF6 /* AkvelonWeather.app */,
-				84AB123422B3966900063B97 /* AkvelonWeatherMac.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,23 +166,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84AB123322B3966900063B97 /* AkvelonWeatherMac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84AB123722B3966900063B97 /* Build configuration list for PBXNativeTarget "AkvelonWeatherMac" */;
-			buildPhases = (
-				84AB123022B3966900063B97 /* Sources */,
-				84AB123122B3966900063B97 /* Frameworks */,
-				84AB123222B3966900063B97 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AkvelonWeatherMac;
-			productName = AkvelonWeatherMac;
-			productReference = 84AB123422B3966900063B97 /* AkvelonWeatherMac.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		CB8550C722B2492500380BF6 /* AkvelonWeather */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB8550DC22B2492700380BF6 /* Build configuration list for PBXNativeTarget "AkvelonWeather" */;
@@ -213,7 +178,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				84AB123C22B3968800063B97 /* PBXTargetDependency */,
 				84AB124022B396E500063B97 /* PBXTargetDependency */,
 			);
 			name = AkvelonWeather;
@@ -231,9 +195,6 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Akvelon;
 				TargetAttributes = {
-					84AB123322B3966900063B97 = {
-						CreatedOnToolsVersion = 11.0;
-					};
 					CB8550C722B2492500380BF6 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -253,19 +214,11 @@
 			projectRoot = "";
 			targets = (
 				CB8550C722B2492500380BF6 /* AkvelonWeather */,
-				84AB123322B3966900063B97 /* AkvelonWeatherMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84AB123222B3966900063B97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CB8550C622B2492500380BF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,13 +234,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84AB123022B3966900063B97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CB8550C422B2492500380BF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,14 +254,8 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84AB123C22B3968800063B97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84AB123322B3966900063B97 /* AkvelonWeatherMac */;
-			targetProxy = 84AB123B22B3968800063B97 /* PBXContainerItemProxy */;
-		};
 		84AB124022B396E500063B97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84AB123322B3966900063B97 /* AkvelonWeatherMac */;
 			targetProxy = 84AB123F22B396E500063B97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -332,40 +272,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84AB123822B3966900063B97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = LTZP9J5F88;
-				INFOPLIST_FILE = AkvelonWeatherMac/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = Akvelon.AkvelonWeatherMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		84AB123922B3966900063B97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = LTZP9J5F88;
-				INFOPLIST_FILE = AkvelonWeatherMac/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = Akvelon.AkvelonWeatherMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		CB8550DA22B2492700380BF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -531,15 +437,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84AB123722B3966900063B97 /* Build configuration list for PBXNativeTarget "AkvelonWeatherMac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84AB123822B3966900063B97 /* Debug */,
-				84AB123922B3966900063B97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		CB8550C322B2492500380BF6 /* Build configuration list for PBXProject "AkvelonWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
