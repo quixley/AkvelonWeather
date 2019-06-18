@@ -29,7 +29,21 @@ enum ConditionType:Int, CaseIterable, Codable {
         case .snow:
             return "cloud.snow"
         }
-        
+    }
+    
+    var imageColor:Color {
+        switch self {
+        case .clear:
+            return .yellow
+        case .clouds:
+            return .gray
+        case .rain:
+            return .blue
+        case .storm:
+            return .orange
+        case .snow:
+            return .accentColor
+        }
     }
 }
 
@@ -38,4 +52,14 @@ struct Condition:Codable, Identifiable {
     var temperature:Temperature
     var type:ConditionType
     
+}
+
+extension Condition {
+    var hourString:String {
+        if id == 0 {return "Now"}
+        let hour = id + 1
+        let suffix = hour >= 12 && hour < 24 ? "PM" : "AM"
+        let actualHour = hour > 12 ? hour - 12 : hour
+        return "\(actualHour) \(suffix)"
+    }
 }

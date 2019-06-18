@@ -1,585 +1,1936 @@
-{"cities":
-[
-    {
-        "id":0,
-        "name": "Moscow",
-        "country": "Russian Federation",
-        "image":"Moscow",
-        "conditions": [
-            {
-                "id":0,
-                "type":0,
-                "temperature":{"value":13}
-            },
-            {
-                "id":1,
-                "type":1,
-                "temperature":{"value":16}
-            },
-            {
-                "id":2,
-                "type":1,
-                "temperature":{"value":14}
-            },
-            {
-                "id":3,
-                "type":0,
-                "temperature":{"value":20}
-            },
-            {
-                "id":4,
-                "type":0,
-                "temperature":{"value":10}
-            },
-            {
-                "id":5,
-                "type":1,
-                "temperature":{"value":21}
-            },
-            {
-                "id":6,
-                "type":0,
-                "temperature":{"value":23}
-            },
-            {
-                "id":7,
-                "type":0,
-                "temperature":{"value":13}
-            },
-            {
-                "id":8,
-                "type":1,
-                "temperature":{"value":16}
-            },
-            {
-                "id":9,
-                "type":2,
-                "temperature":{"value":17}
-            },
-            {
-                "id":10,
-                "type":0,
-                "temperature":{"value":20}
-            },
-            {
-                "id":11,
-                "type":0,
-                "temperature":{"value":25}
-            },
-            {
-                "id":12,
-                "type":0,
-                "temperature":{"value":27}
-            },
-            {
-                "id":13,
-                "type":0,
-                "temperature":{"value":31}
-            }
-        ],
-        "currentCondition":{
-            "id":6,
-            "type":0,
-            "temperature":{"value":31}
+{
+    "cities": [
+        {
+            "id": 0,
+            "name": "Moscow",
+            "country": "Russian Federation",
+            "image": "Moscow",
+            "day": [
+                {
+                    "id": 0,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 0,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 0,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 1,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 0,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 0,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 1,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 14,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 15,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 16,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 17,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 18,
+                    "type": 1,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 19,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 20,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 21,
+                    "type": 1,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 22,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 23,
+                    "type": 1,
+                    "temperature": {
+                        "value": 13
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "id": 0,
+                    "type": 4,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 4,
+                    "temperature": {
+                        "value": 16
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 4,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 4,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 4,
+                    "temperature": {
+                        "value": 17
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 4,
+                    "temperature": {
+                        "value": 8
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 0,
+                    "temperature": {
+                        "value": 17
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 0,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 4,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 0,
+                    "temperature": {
+                        "value": 19
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 4,
+                    "temperature": {
+                        "value": 20
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Kazan",
+            "country": "Russian Federation",
+            "image": "Kazan",
+            "day": [
+                {
+                    "id": 0,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 1,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 1,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 14,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 15,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 16,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 17,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 18,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 19,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 20,
+                    "type": 1,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 21,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 22,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 23,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "id": 0,
+                    "type": 4,
+                    "temperature": {
+                        "value": 16
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 0,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 4,
+                    "temperature": {
+                        "value": 17
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 4,
+                    "temperature": {
+                        "value": 20
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 4,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 4,
+                    "temperature": {
+                        "value": 8
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 4,
+                    "temperature": {
+                        "value": 8
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 4,
+                    "temperature": {
+                        "value": 19
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 4,
+                    "temperature": {
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "London",
+            "country": "United Kingdom",
+            "image": "London",
+            "day": [
+                {
+                    "id": 0,
+                    "type": 3,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 2,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 3,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 2,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 2,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 3,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 3,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 3,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 3,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 2,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 2,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 2,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 2,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 2,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 14,
+                    "type": 2,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 15,
+                    "type": 2,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 16,
+                    "type": 2,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 17,
+                    "type": 3,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 18,
+                    "type": 3,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 19,
+                    "type": 3,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 20,
+                    "type": 2,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 21,
+                    "type": 2,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 22,
+                    "type": 2,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 23,
+                    "type": 2,
+                    "temperature": {
+                        "value": 13
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "id": 0,
+                    "type": 1,
+                    "temperature": {
+                        "value": 8
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "temperature": {
+                        "value": 9
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 1,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 3,
+                    "temperature": {
+                        "value": 17
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 3,
+                    "temperature": {
+                        "value": 8
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 1,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 3,
+                    "temperature": {
+                        "value": 20
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 1,
+                    "temperature": {
+                        "value": 9
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 1,
+                    "temperature": {
+                        "value": 18
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 3,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 3,
+                    "temperature": {
+                        "value": 19
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 3,
+                    "temperature": {
+                        "value": 19
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Helsinki",
+            "country": "Finland",
+            "image": "Helsinki",
+            "day": [
+                {
+                    "id": 0,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 1,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 0,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 1,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 14,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 15,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 16,
+                    "type": 1,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 17,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 18,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 19,
+                    "type": 0,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 20,
+                    "type": 1,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 21,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 22,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 23,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "id": 0,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 4,
+                    "temperature": {
+                        "value": 19
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 4,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 0,
+                    "temperature": {
+                        "value": 9
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 4,
+                    "temperature": {
+                        "value": 9
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 4,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 4,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 4,
+                    "temperature": {
+                        "value": 16
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 4,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 4,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "New York",
+            "country": "USA",
+            "image": "NY",
+            "day": [
+                {
+                    "id": 0,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 0,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 1,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 0,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 14,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 15,
+                    "type": 0,
+                    "temperature": {
+                        "value": 11
+                    }
+                },
+                {
+                    "id": 16,
+                    "type": 0,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 17,
+                    "type": 0,
+                    "temperature": {
+                        "value": 15
+                    }
+                },
+                {
+                    "id": 18,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 19,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                },
+                {
+                    "id": 20,
+                    "type": 1,
+                    "temperature": {
+                        "value": 12
+                    }
+                },
+                {
+                    "id": 21,
+                    "type": 1,
+                    "temperature": {
+                        "value": 14
+                    }
+                },
+                {
+                    "id": 22,
+                    "type": 1,
+                    "temperature": {
+                        "value": 13
+                    }
+                },
+                {
+                    "id": 23,
+                    "type": 0,
+                    "temperature": {
+                        "value": 10
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "id": 0,
+                    "type": 0,
+                    "temperature": {
+                        "value": 19
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 0,
+                    "temperature": {
+                        "value": 28
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 4,
+                    "temperature": {
+                        "value": 20
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 4,
+                    "temperature": {
+                        "value": 22
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 0,
+                    "temperature": {
+                        "value": 19
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 0,
+                    "temperature": {
+                        "value": 26
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 4,
+                    "temperature": {
+                        "value": 24
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 0,
+                    "temperature": {
+                        "value": 24
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 4,
+                    "temperature": {
+                        "value": 21
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 4,
+                    "temperature": {
+                        "value": 25
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 4,
+                    "temperature": {
+                        "value": 24
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 4,
+                    "temperature": {
+                        "value": 24
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 0,
+                    "temperature": {
+                        "value": 18
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 4,
+                    "temperature": {
+                        "value": 21
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "San Francisco",
+            "country": "USA",
+            "image": "SF",
+            "day": [
+                {
+                    "id": 0,
+                    "type": 1,
+                    "temperature": {
+                        "value": 25
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 0,
+                    "temperature": {
+                        "value": 26
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 0,
+                    "temperature": {
+                        "value": 27
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 1,
+                    "temperature": {
+                        "value": 26
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 0,
+                    "temperature": {
+                        "value": 25
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 1,
+                    "temperature": {
+                        "value": 23
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 1,
+                    "temperature": {
+                        "value": 23
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 1,
+                    "temperature": {
+                        "value": 23
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 0,
+                    "temperature": {
+                        "value": 25
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 0,
+                    "temperature": {
+                        "value": 23
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 1,
+                    "temperature": {
+                        "value": 27
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 1,
+                    "temperature": {
+                        "value": 27
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 0,
+                    "temperature": {
+                        "value": 26
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 0,
+                    "temperature": {
+                        "value": 24
+                    }
+                },
+                {
+                    "id": 14,
+                    "type": 1,
+                    "temperature": {
+                        "value": 27
+                    }
+                },
+                {
+                    "id": 15,
+                    "type": 1,
+                    "temperature": {
+                        "value": 23
+                    }
+                },
+                {
+                    "id": 16,
+                    "type": 0,
+                    "temperature": {
+                        "value": 25
+                    }
+                },
+                {
+                    "id": 17,
+                    "type": 0,
+                    "temperature": {
+                        "value": 27
+                    }
+                },
+                {
+                    "id": 18,
+                    "type": 1,
+                    "temperature": {
+                        "value": 27
+                    }
+                },
+                {
+                    "id": 19,
+                    "type": 1,
+                    "temperature": {
+                        "value": 27
+                    }
+                },
+                {
+                    "id": 20,
+                    "type": 1,
+                    "temperature": {
+                        "value": 24
+                    }
+                },
+                {
+                    "id": 21,
+                    "type": 1,
+                    "temperature": {
+                        "value": 23
+                    }
+                },
+                {
+                    "id": 22,
+                    "type": 1,
+                    "temperature": {
+                        "value": 25
+                    }
+                },
+                {
+                    "id": 23,
+                    "type": 1,
+                    "temperature": {
+                        "value": 23
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "id": 0,
+                    "type": 3,
+                    "temperature": {
+                        "value": 26
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 3,
+                    "temperature": {
+                        "value": 22
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 3,
+                    "temperature": {
+                        "value": 22
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 0,
+                    "temperature": {
+                        "value": 23
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 0,
+                    "temperature": {
+                        "value": 20
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 0,
+                    "temperature": {
+                        "value": 28
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 0,
+                    "temperature": {
+                        "value": 20
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 3,
+                    "temperature": {
+                        "value": 29
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 3,
+                    "temperature": {
+                        "value": 24
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 0,
+                    "temperature": {
+                        "value": 28
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 3,
+                    "temperature": {
+                        "value": 27
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 3,
+                    "temperature": {
+                        "value": 30
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 3,
+                    "temperature": {
+                        "value": 29
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 0,
+                    "temperature": {
+                        "value": 23
+                    }
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Ushuaia",
+            "country": "Argentina",
+            "image": "Ushuaia",
+            "day": [
+                {
+                    "id": 0,
+                    "type": 4,
+                    "temperature": {
+                        "value": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 4,
+                    "temperature": {
+                        "value": -3
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 4,
+                    "temperature": {
+                        "value": 3
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 4,
+                    "temperature": {
+                        "value": 3
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 4,
+                    "temperature": {
+                        "value": -5
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 3,
+                    "temperature": {
+                        "value": -5
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 3,
+                    "temperature": {
+                        "value": -3
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 3,
+                    "temperature": {
+                        "value": -3
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 4,
+                    "temperature": {
+                        "value": 5
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 3,
+                    "temperature": {
+                        "value": -5
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 3,
+                    "temperature": {
+                        "value": -1
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 4,
+                    "temperature": {
+                        "value": 7
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 3,
+                    "temperature": {
+                        "value": 4
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 3,
+                    "temperature": {
+                        "value": 1
+                    }
+                },
+                {
+                    "id": 14,
+                    "type": 4,
+                    "temperature": {
+                        "value": 3
+                    }
+                },
+                {
+                    "id": 15,
+                    "type": 3,
+                    "temperature": {
+                        "value": -4
+                    }
+                },
+                {
+                    "id": 16,
+                    "type": 4,
+                    "temperature": {
+                        "value": 7
+                    }
+                },
+                {
+                    "id": 17,
+                    "type": 4,
+                    "temperature": {
+                        "value": -5
+                    }
+                },
+                {
+                    "id": 18,
+                    "type": 3,
+                    "temperature": {
+                        "value": -5
+                    }
+                },
+                {
+                    "id": 19,
+                    "type": 4,
+                    "temperature": {
+                        "value": 7
+                    }
+                },
+                {
+                    "id": 20,
+                    "type": 4,
+                    "temperature": {
+                        "value": 8
+                    }
+                },
+                {
+                    "id": 21,
+                    "type": 3,
+                    "temperature": {
+                        "value": -1
+                    }
+                },
+                {
+                    "id": 22,
+                    "type": 3,
+                    "temperature": {
+                        "value": 5
+                    }
+                },
+                {
+                    "id": 23,
+                    "type": 3,
+                    "temperature": {
+                        "value": 1
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "id": 0,
+                    "type": 3,
+                    "temperature": {
+                        "value": 5
+                    }
+                },
+                {
+                    "id": 1,
+                    "type": 3,
+                    "temperature": {
+                        "value": -3
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": 4,
+                    "temperature": {
+                        "value": -1
+                    }
+                },
+                {
+                    "id": 3,
+                    "type": 3,
+                    "temperature": {
+                        "value": -7
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": 4,
+                    "temperature": {
+                        "value": -8
+                    }
+                },
+                {
+                    "id": 5,
+                    "type": 4,
+                    "temperature": {
+                        "value": 4
+                    }
+                },
+                {
+                    "id": 6,
+                    "type": 4,
+                    "temperature": {
+                        "value": 1
+                    }
+                },
+                {
+                    "id": 7,
+                    "type": 3,
+                    "temperature": {
+                        "value": 2
+                    }
+                },
+                {
+                    "id": 8,
+                    "type": 3,
+                    "temperature": {
+                        "value": -1
+                    }
+                },
+                {
+                    "id": 9,
+                    "type": 3,
+                    "temperature": {
+                        "value": -1
+                    }
+                },
+                {
+                    "id": 10,
+                    "type": 4,
+                    "temperature": {
+                        "value": 5
+                    }
+                },
+                {
+                    "id": 11,
+                    "type": 4,
+                    "temperature": {
+                        "value": 4
+                    }
+                },
+                {
+                    "id": 12,
+                    "type": 3,
+                    "temperature": {
+                        "value": 5
+                    }
+                },
+                {
+                    "id": 13,
+                    "type": 4,
+                    "temperature": {
+                        "value": 0
+                    }
+                }
+            ]
         }
-    },
-    {
-        "id":1,
-        "name": "Kazan",
-        "country": "Russian Federation",
-        "image":"Kazan",
-        "conditions": [
-            {
-                "id":0,
-                "type":0,
-                "temperature":{"value":25}
-            },
-            {
-                "id":1,
-                "type":1,
-                "temperature":{"value":30}
-            },
-            {
-                "id":2,
-                "type":1,
-                "temperature":{"value":32}
-            },
-            {
-                "id":3,
-                "type":0,
-                "temperature":{"value":25}
-            },
-            {
-                "id":4,
-                "type":1,
-                "temperature":{"value":17}
-            },
-            {
-                "id":5,
-                "type":2,
-                "temperature":{"value":19}
-            },
-            {
-                "id":6,
-                "type":0,
-                "temperature":{"value":16}
-            },
-            {
-                "id":7,
-                "type":0,
-                "temperature":{"value":13}
-            },
-            {
-                "id":8,
-                "type":1,
-                "temperature":{"value":16}
-            },
-            {
-                "id":9,
-                "type":1,
-                "temperature":{"value":14}
-            },
-            {
-                "id":10,
-                "type":0,
-                "temperature":{"value":20}
-            },
-            {
-                "id":11,
-                "type":0,
-                "temperature":{"value":10}
-            },
-            {
-                "id":12,
-                "type":1,
-                "temperature":{"value":21}
-            },
-            {
-                "id":13,
-                "type":0,
-                "temperature":{"value":23}
-            }
-        ],
-        "currentCondition":{
-            "id":6,
-            "type":0,
-            "temperature":{"value":16}
-        }
-    },
-    {
-        "id":2,
-        "name": "London",
-        "country": "United Kingdom",
-        "image":"London",
-        "conditions": [
-            {
-                "id":0,
-                "type":3,
-                "temperature":{"value":11}
-            },
-            {
-                "id":1,
-                "type":2,
-                "temperature":{"value":13}
-            },
-            {
-                "id":2,
-                "type":3,
-                "temperature":{"value":11}
-            },
-            {
-                "id":3,
-                "type":3,
-                "temperature":{"value":17}
-            },
-            {
-                "id":4,
-                "type":2,
-                "temperature":{"value":17}
-            },
-            {
-                "id":5,
-                "type":1,
-                "temperature":{"value":15}
-            },
-            {
-                "id":6,
-                "type":2,
-                "temperature":{"value":10}
-            },
-            {
-                "id":7,
-                "type":0,
-                "temperature":{"value":13}
-            },
-            {
-                "id":8,
-                "type":1,
-                "temperature":{"value":16}
-            },
-            {
-                "id":9,
-                "type":1,
-                "temperature":{"value":14}
-            },
-            {
-                "id":10,
-                "type":0,
-                "temperature":{"value":20}
-            },
-            {
-                "id":11,
-                "type":0,
-                "temperature":{"value":10}
-            },
-            {
-                "id":12,
-                "type":1,
-                "temperature":{"value":21}
-            },
-            {
-                "id":13,
-                "type":0,
-                "temperature":{"value":23}
-            }
-        ],
-        "currentCondition":{
-            "id":6,
-            "type":2,
-            "temperature":{"value":10}
-        }
-    },
-    {
-        "id":3,
-        "name": "Helsinki",
-        "country": "Finland",
-        "image":"Helsinki",
-        "conditions": [
-            {
-                "id":0,
-                "type":3,
-                "temperature":{"value":17}
-            },
-            {
-                "id":1,
-                "type":3,
-                "temperature":{"value":20}
-            },
-            {
-                "id":2,
-                "type":2,
-                "temperature":{"value":22}
-            },
-            {
-                "id":3,
-                "type":2,
-                "temperature":{"value":23}
-            },
-            {
-                "id":4,
-                "type":2,
-                "temperature":{"value":21}
-            },
-            {
-                "id":5,
-                "type":0,
-                "temperature":{"value":21}
-            },
-            {
-                "id":6,
-                "type":1,
-                "temperature":{"value":21}
-            },
-            {
-                "id":7,
-                "type":0,
-                "temperature":{"value":13}
-            },
-            {
-                "id":8,
-                "type":1,
-                "temperature":{"value":16}
-            },
-            {
-                "id":9,
-                "type":1,
-                "temperature":{"value":14}
-            },
-            {
-                "id":10,
-                "type":0,
-                "temperature":{"value":20}
-            },
-            {
-                "id":11,
-                "type":0,
-                "temperature":{"value":10}
-            },
-            {
-                "id":12,
-                "type":1,
-                "temperature":{"value":21}
-            },
-            {
-                "id":13,
-                "type":0,
-                "temperature":{"value":23}
-            }
-        ],
-        "currentCondition":{
-            "id":6,
-            "type":1,
-            "temperature":{"value":21}
-        }
-    },
-    {
-        "id":4,
-        "name": "New York",
-        "country": "USA",
-        "image":"NY",
-        "conditions": [
-            {
-                "id":0,
-                "type":2,
-                "temperature":{"value":17}
-            },
-            {
-                "id":1,
-                "type":1,
-                "temperature":{"value":24}
-            },
-            {
-                "id":2,
-                "type":1,
-                "temperature":{"value":28}
-            },
-            {
-                "id":3,
-                "type":2,
-                "temperature":{"value":27}
-            },
-            {
-                "id":4,
-                "type":2,
-                "temperature":{"value":30}
-            },
-            {
-                "id":5,
-                "type":2,
-                "temperature":{"value":28}
-            },
-            {
-                "id":6,
-                "type":2,
-                "temperature":{"value":26}
-            },
-            {
-                "id":7,
-                "type":0,
-                "temperature":{"value":13}
-            },
-            {
-                "id":8,
-                "type":1,
-                "temperature":{"value":16}
-            },
-            {
-                "id":9,
-                "type":1,
-                "temperature":{"value":14}
-            },
-            {
-                "id":10,
-                "type":0,
-                "temperature":{"value":20}
-            },
-            {
-                "id":11,
-                "type":0,
-                "temperature":{"value":10}
-            },
-            {
-                "id":12,
-                "type":1,
-                "temperature":{"value":21}
-            },
-            {
-                "id":13,
-                "type":0,
-                "temperature":{"value":23}
-            }
-        ],
-        "currentCondition":{
-            "id":6,
-            "type":2,
-            "temperature":{"value":26}
-        }
-    },
-    {
-        "id":5,
-        "name": "San Francisco",
-        "country": "USA",
-        "image":"SF",
-        "conditions": [
-            {
-                "id":0,
-                "type":1,
-                "temperature":{"value":18}
-            },
-            {
-                "id":1,
-                "type":1,
-                "temperature":{"value":17}
-            },
-            {
-                "id":2,
-                "type":1,
-                "temperature":{"value":18}
-            },
-            {
-                "id":3,
-                "type":1,
-                "temperature":{"value":19}
-            },
-            {
-                "id":4,
-                "type":1,
-                "temperature":{"value":22}
-            },
-            {
-                "id":5,
-                "type":1,
-                "temperature":{"value":23}
-            },
-            {
-                "id":6,
-                "type":1,
-                "temperature":{"value":25}
-            },
-            {
-                "id":7,
-                "type":0,
-                "temperature":{"value":13}
-            },
-            {
-                "id":8,
-                "type":1,
-                "temperature":{"value":16}
-            },
-            {
-                "id":9,
-                "type":1,
-                "temperature":{"value":14}
-            },
-            {
-                "id":10,
-                "type":0,
-                "temperature":{"value":20}
-            },
-            {
-                "id":11,
-                "type":0,
-                "temperature":{"value":10}
-            },
-            {
-                "id":12,
-                "type":1,
-                "temperature":{"value":21}
-            },
-            {
-                "id":13,
-                "type":0,
-                "temperature":{"value":23}
-            }
-        ],
-        "currentCondition":{
-            "id":6,
-            "type":1,
-            "temperature":{"value":25}
-        }
-    },
-    {
-        "id":6,
-        "name": "Ushuaia",
-        "country": "Argentina",
-        "image":"Ushuaia",
-        "conditions": [
-            {
-                "id":0,
-                "type":0,
-                "temperature":{"value":-6}
-            },
-            {
-                "id":1,
-                "type":4,
-                "temperature":{"value":-3}
-            },
-            {
-                "id":2,
-                "type":2,
-                "temperature":{"value":4}
-            },
-            {
-                "id":3,
-                "type":2,
-                "temperature":{"value":6}
-            },
-            {
-                "id":4,
-                "type":1,
-                "temperature":{"value":2}
-            },
-            {
-                "id":5,
-                "type":1,
-                "temperature":{"value":0}
-            },
-            {
-                "id":6,
-                "type":4,
-                "temperature":{"value":-1}
-            },
-            {
-                "id":7,
-                "type":0,
-                "temperature":{"value":13}
-            },
-            {
-                "id":8,
-                "type":1,
-                "temperature":{"value":16}
-            },
-            {
-                "id":9,
-                "type":1,
-                "temperature":{"value":14}
-            },
-            {
-                "id":10,
-                "type":0,
-                "temperature":{"value":20}
-            },
-            {
-                "id":11,
-                "type":0,
-                "temperature":{"value":10}
-            },
-            {
-                "id":12,
-                "type":1,
-                "temperature":{"value":21}
-            },
-            {
-                "id":13,
-                "type":0,
-                "temperature":{"value":23}
-            }
-        ],
-        "currentCondition":{
-            "id":6,
-            "type":4,
-            "temperature":{"value":-1}
-        }
-    }
-]
+    ]
 }

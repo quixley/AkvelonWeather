@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		84AB124322B39E9D00063B97 /* ConditionColomn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB124222B39E9D00063B97 /* ConditionColomn.swift */; };
 		84AB124922B3AD1D00063B97 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB124822B3AD1D00063B97 /* GraphView.swift */; };
+		84AB124B22B7CA5D00063B97 /* ConditionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB124A22B7CA5D00063B97 /* ConditionImage.swift */; };
 		CB6C63EA22B25DAF004366D6 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C63E922B25DAF004366D6 /* CityList.swift */; };
 		CB6C63EC22B25ED6004366D6 /* CityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C63EB22B25ED6004366D6 /* CityDetails.swift */; };
 		CB6C63EE22B279AD004366D6 /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = CB6C63ED22B279AD004366D6 /* Cities.json */; };
@@ -52,6 +53,7 @@
 		84AB123622B3966900063B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AB124222B39E9D00063B97 /* ConditionColomn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConditionColomn.swift; path = AkvelonWeather/Models/ConditionColomn.swift; sourceTree = SOURCE_ROOT; };
 		84AB124822B3AD1D00063B97 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		84AB124A22B7CA5D00063B97 /* ConditionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionImage.swift; sourceTree = "<group>"; };
 		CB4C14FE22B3057A007B795A /* AkvelonWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AkvelonWeather.entitlements; sourceTree = "<group>"; };
 		CB4C150022B307B1007B795A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		CB6C63E922B25DAF004366D6 /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				84AB124822B3AD1D00063B97 /* GraphView.swift */,
+				84AB124A22B7CA5D00063B97 /* ConditionImage.swift */,
 			);
 			path = "Helper Views";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				CB8550CE22B2492500380BF6 /* SceneDelegate.swift in Sources */,
 				84AB124322B39E9D00063B97 /* ConditionColomn.swift in Sources */,
 				CB8550E022B2496000380BF6 /* City.swift in Sources */,
+				84AB124B22B7CA5D00063B97 /* ConditionImage.swift in Sources */,
 				CB8550E322B2498700380BF6 /* Temperature.swift in Sources */,
 				84AB124922B3AD1D00063B97 /* GraphView.swift in Sources */,
 			);
@@ -407,14 +411,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "AkvelonWeather/Preview\\ Content";
-				DEVELOPMENT_TEAM = LTZP9J5F88;
+				DEVELOPMENT_TEAM = Q8M342TXD6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AkvelonWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dev.AkvelonWeatherr;
+				PRODUCT_BUNDLE_IDENTIFIER = akvelon.dev.AkvelonWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,14 +435,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "AkvelonWeather/Preview\\ Content";
-				DEVELOPMENT_TEAM = LTZP9J5F88;
+				DEVELOPMENT_TEAM = Q8M342TXD6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AkvelonWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dev.AkvelonWeatherr;
+				PRODUCT_BUNDLE_IDENTIFIER = akvelon.dev.AkvelonWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;

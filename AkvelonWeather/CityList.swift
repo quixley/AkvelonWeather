@@ -17,8 +17,8 @@ struct CityList : View {
             List(cities.identified(by: \.id)) { city in
                 NavigationButton(destination: CityDetails(city: city)) {
                     CityRow(city: city)
-                }
-            }.navigationBarTitle(Text("Weather"))
+                }.accessibility(identifier: city.name)
+            }.listStyle(.grouped).navigationBarTitle(Text("Weather"))
         }    
     }
 }

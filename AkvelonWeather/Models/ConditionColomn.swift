@@ -12,13 +12,16 @@ struct ConditionColomn : View {
     var condition:Condition
     var body: some View {
         VStack(alignment:.center) {
-            Image(systemName:condition.type.systemImage)
+            Text(condition.hourString)
+                .font(.body)
+                .color(.secondary)
+            ConditionImage(conditionType: condition.type)
                 .font(.title)
                 .padding(.bottom, 5)
                 .frame(width:40, height:40, alignment: .center)
             Text(condition.temperature.displayValue)
                 .font(.headline)
-        }.padding(.horizontal, 20)
+        }.padding(.vertical,.zero)
         
     }
 }
@@ -26,7 +29,7 @@ struct ConditionColomn : View {
 #if DEBUG
 struct ConditionColomn_Previews : PreviewProvider {
     static var previews: some View {
-        ConditionColomn(condition: Cities.availableCities!.first!.currentCondition)
+        ConditionColomn(condition: Cities.availableCities!.first!.day.first!)
     }
 }
 #endif
