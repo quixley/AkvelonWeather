@@ -2,7 +2,6 @@
 //  GraphView.swift
 //  AkvelonWeather
 //
-//  Created by Artur Akvelon on 14.06.2019.
 //  Copyright © 2019 Akvelon. All rights reserved.
 //
 

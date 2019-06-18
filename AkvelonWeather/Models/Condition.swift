@@ -2,7 +2,6 @@
 //  Condition.swift
 //  AkvelonWeather
 //
-//  Created by Arthur Mikhaylov on 13.06.2019.
 //  Copyright © 2019 Akvelon. All rights reserved.
 //
 
@@ -43,6 +42,21 @@ enum ConditionType:Int, CaseIterable, Codable {
             return .orange
         case .snow:
             return .accentColor
+        }
+    }
+    
+    var conditionText:String {
+        switch self {
+        case .clear:
+            return "Clear"
+        case .clouds:
+            return "Cloudy"
+        case .rain:
+            return "Rainy"
+        case .storm:
+            return "Stormy"
+        case .snow:
+            return "Snowy"
         }
     }
 }

@@ -2,7 +2,6 @@
 //  ConditionImage.swift
 //  AkvelonWeather
 //
-//  Created by Artur Akvelon on 17.06.2019.
 //  Copyright © 2019 Akvelon. All rights reserved.
 //
 
