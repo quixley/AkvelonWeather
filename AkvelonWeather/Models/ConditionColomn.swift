@@ -13,8 +13,7 @@ struct ConditionColomn : View {
     var body: some View {
         VStack(alignment:.center) {
             Text(condition.hourString)
-                .font(.body)
-                .color(.secondary)
+                .font(.subheadline)
             ConditionImage(conditionType: condition.type)
                 .font(.title)
                 .padding(.bottom, 5)
