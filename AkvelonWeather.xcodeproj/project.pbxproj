@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8423DE2F22BA8FAD00D09A8E /* ConditionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423DE2E22BA8FAD00D09A8E /* ConditionRow.swift */; };
 		84AB124322B39E9D00063B97 /* ConditionColomn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB124222B39E9D00063B97 /* ConditionColomn.swift */; };
 		84AB124922B3AD1D00063B97 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB124822B3AD1D00063B97 /* GraphView.swift */; };
 		84AB124B22B7CA5D00063B97 /* ConditionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB124A22B7CA5D00063B97 /* ConditionImage.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8423DE2E22BA8FAD00D09A8E /* ConditionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionRow.swift; sourceTree = "<group>"; };
 		84AB123622B3966900063B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AB124222B39E9D00063B97 /* ConditionColomn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConditionColomn.swift; path = AkvelonWeather/Models/ConditionColomn.swift; sourceTree = SOURCE_ROOT; };
 		84AB124822B3AD1D00063B97 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			children = (
 				CB8550E622B24CF300380BF6 /* CityRow.swift */,
 				84AB124222B39E9D00063B97 /* ConditionColomn.swift */,
+				8423DE2E22BA8FAD00D09A8E /* ConditionRow.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				CB6C63EA22B25DAF004366D6 /* CityList.swift in Sources */,
 				CB8550CE22B2492500380BF6 /* SceneDelegate.swift in Sources */,
 				84AB124322B39E9D00063B97 /* ConditionColomn.swift in Sources */,
+				8423DE2F22BA8FAD00D09A8E /* ConditionRow.swift in Sources */,
 				CB8550E022B2496000380BF6 /* City.swift in Sources */,
 				84AB124B22B7CA5D00063B97 /* ConditionImage.swift in Sources */,
 				CB8550E322B2498700380BF6 /* Temperature.swift in Sources */,

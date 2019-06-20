@@ -29,7 +29,7 @@ struct CityDetails : View {
                             .padding(.horizontal, -16)
                             .padding(.vertical, -8)
                         
-                        ScrollView(alwaysBounceHorizontal:true, showsHorizontalIndicator: false) {
+                        ScrollView(showsHorizontalIndicator: false) {
                             HStack(alignment: .center, spacing: 25) {
                                 ForEach(self.city.day) { condition in
                                     ConditionColomn(condition:condition)
@@ -38,21 +38,7 @@ struct CityDetails : View {
                         }.frame(height:120)
                         
                         ForEach(self.city.conditions) { condition in
-                            HStack(alignment: .center) {
-                                Text("\(condition.id+1) June")
-                                Spacer()
-                                ConditionImage(conditionType: condition.type)
-                                    .font(.body)
-                                    .foregroundColor(.yellow)
-                                Spacer()
-                                Text("\(condition.temperature.value)")
-                                    .font(.title)
-                                Text("\(condition.temperature.value - 7)")
-                                    .font(.title)
-                                    .color(.secondary)
-                                    .frame(minWidth: 40, idealWidth: 50, maxWidth: 60)
-                                    .aspectRatio(contentMode: .fit)
-                            }.padding(.vertical, 5)
+                            ConditionRow(condition:condition)
                         }
                     }
                 }

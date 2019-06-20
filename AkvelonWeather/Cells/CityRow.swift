@@ -35,7 +35,11 @@ struct CityRow : View {
 #if DEBUG
 struct CityRow_Previews : PreviewProvider {
     static var previews: some View {
-        CityRow(city: Cities.availableCities!.first!).previewLayout(.fixed(width: 320, height: 60))
+        Group {
+            CityRow(city: Cities.availableCities!.first!).previewLayout(.fixed(width: 320, height: 60))
+            CityRow(city: Cities.availableCities!.randomElement()!).previewLayout(.fixed(width: 375, height: 60))
+            CityRow(city: Cities.availableCities!.last!).previewLayout(.fixed(width: 600, height: 60))
+        }
     }
 }
 #endif
