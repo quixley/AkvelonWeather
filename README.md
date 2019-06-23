@@ -17,5 +17,3 @@ A sample project that showcases latest Apple technologies - SwiftUI, Dark Mode, 
 ## Technologies
 
 Developed using Swift language and SwiftUI for User Interface. UI previews available with Canves editor
-
-# Gameplay
