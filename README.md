@@ -2,8 +2,6 @@
 
 A sample project that showcases latest Apple technologies - SwiftUI, Dark Mode, Dynamic color, Dynaic images and SF Symbols
 
-## Overview
-
 
 ## Running Locally
 
