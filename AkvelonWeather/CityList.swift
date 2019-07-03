@@ -14,7 +14,7 @@ struct CityList : View {
     var body: some View {
         NavigationView {
             List(cities.identified(by: \.id)) { city in
-                NavigationButton(destination: CityDetails(city: city)) {
+                NavigationLink(destination: CityDetails(city: city)) {
                     CityRow(city: city)
                 }
             }.listStyle(.grouped).navigationBarTitle(Text("Weather"))

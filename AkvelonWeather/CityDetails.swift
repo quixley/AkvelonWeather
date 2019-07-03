@@ -12,38 +12,30 @@ struct CityDetails : View {
     var city:City
     
     var body: some View {
-        
-        guard let image = UIImage(named: city.image) else {
-            fatalError("Image not found")
-        }
-        
-        return
-            GeometryReader { geometry in
-                VStack(alignment:.center) {
-                    List() {
-                        Image(uiImage: image)
-                            .resizable()
-                            .aspectRatio(image.size.width/image.size.height, contentMode: .fill)
-                            .frame(height:geometry.size.width*0.5)
-                            .clipped()
-                            .padding(.horizontal, -16)
-                            .padding(.vertical, -8)
-                        
-                        ScrollView(showsHorizontalIndicator: false) {
-                            HStack(alignment: .center, spacing: 25) {
-                                ForEach(self.city.day) { condition in
-                                    ConditionColomn(condition:condition)
-                                }
-                            }.frame(height:120)
+        GeometryReader { geometry in
+            VStack(alignment:.center) {
+                List() {
+                    Image(self.city.image)
+                        .resizable()
+                        .frame(height:geometry.size.width*0.5)
+                        .clipped()
+                        .padding(.horizontal, -16)
+                        .padding(.vertical, -8)
+                    
+                    ScrollView(showsIndicators: false) {
+                        HStack(alignment: .center, spacing: 25) {
+                            ForEach(self.city.day) { condition in
+                                ConditionColomn(condition:condition)
+                            }
                         }.frame(height:120)
-                        
-                        ForEach(self.city.conditions) { condition in
-                            ConditionRow(condition:condition)
-                        }
+                    }.frame(height:120)
+                    
+                    ForEach(self.city.conditions) { condition in
+                        ConditionRow(condition:condition)
                     }
                 }
+            }
         }.navigationBarTitle(Text(city.name), displayMode: .inline)
-        
     }
 }
 
