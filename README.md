@@ -1,6 +1,6 @@
 # AkvelonWeather
 
-A sample project that showcases latest Apple technologies - SwiftUI, Dark Mode, Dynamic color, Dynaic images and SF Symbols.
+A sample project that showcases the latest Apple technologies - SwiftUI, Dark Mode, Dynamic color, Dynaic images and SF Symbols.
 
 
 ## Running Locally
@@ -9,10 +9,10 @@ A sample project that showcases latest Apple technologies - SwiftUI, Dark Mode, 
 2. Open .xcodeproj file in Xcode 11 or higher
 3. Run project on connected device or choose iOS Simulator in "Scheme destination" drop-down menu
 
-## Requierements
+## Requirements
 - macOS 10.15 or higher
 -  iOS 13 or higher
 
 ## Technologies
 
-Developed using Swift language and SwiftUI for User Interface. UI previews available with Canvas editor.
+Developed using Swift language and SwiftUI for User Interface. UI previews are available with Canvas editor.
